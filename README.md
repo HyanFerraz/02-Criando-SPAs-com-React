@@ -1,27 +1,13 @@
-# React + TypeScript + Vite
+# Temporizador Pomodoro
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Como utilizar o projeto
 
-Currently, two official plugins are available:
+O projeto é um temporizador pomodoro, onde você pode definir o tempo de trabalho e o tempo de descanso. Ao iniciar o temporizador ele irá contar o tempo de trabalho e ao finalizar o tempo de trabalho ele irá iniciar o tempo de descanso. Ao finalizar o tempo de descanso ele irá iniciar novamente o tempo de trabalho e assim sucessivamente.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tecnologias utilizadas
 
-## Expanding the ESLint configuration
+Esse app foi criado em acompanhamento com o Curso de ReactJS da RocketSeat durante o segundo módulo do curso onde foi desenvolvido utilizando novas bibliotecas como Styled-Components, React-Router-DOM, React-Hook-Forms e Zod. Além dessas bibliotecas também foi utilizado pela primeira vez o ESlint.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Como rodar o projeto
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Para rodar o projeto basta clonar o repositório e rodar o comando `yarn` para instalar as dependências e em seguida rodar o comando `yarn start` para iniciar o projeto.
